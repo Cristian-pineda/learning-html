@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> C.Pineda Forms </title>
+    </head>
+
+    <body> 
+        <h3>
+            <img src="https://img.icons8.com/fluent/48/000000/idea.png"/> 
+            C. PINEDA | Learning how to use forms in HTML.
+        </h3>
+
+        <h4>
+            Forms | Assement | Completed on Jun 29, 2020
+        </h4>
+
+        <p>
+            The goal of this project is to re-create a basic registration page in html-in order to
+            get a better understanding of the basics of creating and linking forms.
+        </p>
+
+        <p> Please see my Course Sign Up form below.</p>
+
+        <form method="get">
+            <h1>Course Sign Up Page</h1>
+            <p>
+                Please Note: First Name, Last Name, Password, and Email are required
+            </p>
+
+            <label for="user_first_name">First Name</label>
+            <input id="user_first_name" type="text" name="course_signup_info" placeholder="First Name" required>
+
+            <label for="user_last_name">Last Name</label>
+            <input id="user_last_name" type="text" name="course_signup_info" placeholder="First Name" required>
+
+            <p></p>
+
+            <label for="user_email_name">Email</label>
+            <input id="user_email_name" type="text" name="course_signup_info" placeholder="name@email.com" required>
+
+            <label for="user_password_name">Password</label>
+            <input id="user_password" type="password" name="course_signup_info" required>
+
+            <p></p>
+
+            <p>Are you over the age of 18?</p>
+
+            <label for="age_over_18">Yes</label>
+            <input id="age_over_18" type="radio" name="course_signup_info" required>
+
+            <label for="age_not_over_18">No</label>
+            <input id="age_not_over_18" type="radio" name="course_signup_info" required>
+
+            <p></p>
+
+            <p>Do you have a Credit Card or PayPal?</p>
+
+            <select name="course_signup_info">
+                <option value="Credit Card">Credit Card</option>
+                <option value="Paypal">PayPal</option>
+            </select>
+
+            <p></p>
+
+            <input type="submit" name="course_signup_info" value="Submit Feedback">
+
+        </form>
+
+    </body>
+
+</html>
